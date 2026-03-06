@@ -98,11 +98,12 @@ O projeto está em constante evolução. Confira o que vem por aí:
 - [ ] Dashboard para a ONG gerenciar pets (CRUD de animais).
 - [ ] Gerenciamento de status de adoção (Pendente, Aprovado, Concluído).
 
-### Versão 2.0 - Ecossistema Completo
+### Versão 2.0 - Ecossistema Web Avançado
 
-- [ ] App Mobile (React Native) para adotantes.
 - [ ] Sistema de Chat interno para comunicação com o abrigo.
-- [ ] API Própria para parceiros.
+- [ ] Blog integrado para dicas de cuidados e notícias.
+- [ ] Integração com mapas avançada para localização de parceiros.
+- [ ] API Própria para parceiros e integradores.
 
 ---
 
