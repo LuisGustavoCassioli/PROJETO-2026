@@ -12,7 +12,7 @@
 
 ---
 
-## � Preview
+## 🖼️ Preview
 
 Aqui estão alguns vislumbres da interface premium do projeto:
 
@@ -33,7 +33,7 @@ Aqui estão alguns vislumbres da interface premium do projeto:
 - [x] **Galeria de Pets Interativa**: Listagem com filtros inteligentes por espécie, idade e porte.
 - [x] **Busca em Tempo Real**: Filtro instantâneo por nome, raça ou localização.
 - [x] **Fluxo de Adoção Multi-step**: Modal organizado para triagem de interessantes.
-- [x] **Integração Backend (Formspree)**: Recebimento de solicitações de adoção e voluntariado diretamente por e-mail.
+- [x] **Integração Backend (Formspree)**: Recebimento de solicitações de adoção e voluntariado diretamente por e-mails formatados.
 - [x] **Design Responsivo & Premium**: Estética moderna com glassmorphism, gradientes suaves e micro-animações.
 - [x] **Sistema de Doações**: Interface dedicada para suporte financeiro à ONG.
 
@@ -58,25 +58,25 @@ Aqui estão alguns vislumbres da interface premium do projeto:
 
 ### Passo a Passo
 
-1. Clone o repositório:
+1. **Clone o repositório**:
 
    ```bash
    git clone https://github.com/LuisGustavoCassioli/PROJETO-2026.git
    ```
 
-2. Entre na pasta:
+2. **Entre na pasta**:
 
    ```bash
    cd PROJETO-2026
    ```
 
-3. Instale as dependências:
+3. **Instale as dependências**:
 
    ```bash
    npm install
    ```
 
-4. Inicie o servidor de desenvolvimento:
+4. **Inicie o servidor de desenvolvimento**:
 
    ```bash
    npm run dev
@@ -107,19 +107,30 @@ O projeto está em constante evolução. Confira o que vem por aí:
 
 ---
 
-## 📂 Estrutura de Documentação Sugerida
+## 📂 Documentação
 
-Para manter o projeto escalável, recomendamos a seguinte estrutura em `/docs`:
+Documentação técnica avançada disponível na pasta `/docs`:
 
-- `architecture.md`: Guia de padrões de código e estrutura de pastas.
-- `contributing.md`: Regras para quem deseja colaborar com o código.
-- `design_system.md`: Definição de cores, fontes e tokens visuais.
+- [Arquitetura do Projeto](/docs/architecture.md)
+- [Guia de Contribuição](/docs/CONTRIBUTING.md)
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
+3. Faça o Commit de suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
 ---
 
 ## 📋 Tags Recomendadas (Topics)
 
-`react`, `vite`, `formspree`, `animal-adoption`, `glassmorphism`, `premium-ui`, `frontend`, `ngo-system`.
+`nextjs`, `react`, `vite`, `formspree`, `animal-adoption`, `glassmorphism`, `premium-ui`, `frontend`, `webapp`, `portfolio`, `javascript`.
 
 ---
 
