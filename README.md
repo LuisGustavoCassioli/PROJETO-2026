@@ -20,8 +20,8 @@ Muitas ONGs de pequeno e médio porte sofrem com a falta de visibilidade de seus
 
 ## 👥 Integrantes do Grupo
 
-| Nome | Matrícula | GitHub |
-|------|-----------|--------|
+| Nome           | Matrícula  | GitHub |
+| :------------- | :--------- | :----- |
 | [Nome do Aluno] | [Matrícula] | [@user] |
 | [Nome do Aluno] | [Matrícula] | [@user] |
 | [Nome do Aluno] | [Matrícula] | [@user] |
@@ -60,7 +60,9 @@ O sistema está hospedado e disponível para acesso público através da platafo
 
 ## 🎥 Vídeo de Apresentação
 
-*(Link para o vídeo de apresentação - Mínimo 5 minutos)*
+### 📺 Link da Apresentação
+
+*(O vídeo deve conter no mínimo 5 minutos)*
 
 - [Assista no YouTube](https://youtube.com/...)
 
