@@ -20,8 +20,8 @@ Muitas ONGs de pequeno e médio porte sofrem com a falta de visibilidade de seus
 
 ## 👥 Integrantes do Grupo
 
-| Nome           | Matrícula  | GitHub |
-| :------------- | :--------- | :----- |
+| Nome | Matrícula | GitHub |
+| :--- | :--- | :--- |
 | [Nome do Aluno] | [Matrícula] | [@user] |
 | [Nome do Aluno] | [Matrícula] | [@user] |
 | [Nome do Aluno] | [Matrícula] | [@user] |
