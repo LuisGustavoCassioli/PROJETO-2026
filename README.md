@@ -62,7 +62,7 @@ O sistema está hospedado e disponível para acesso público através da platafo
 
 ### 📺 Link da Apresentação
 
-*(O vídeo deve conter no mínimo 5 minutos)*
+O vídeo deve conter no mínimo 5 minutos.
 
 - [Assista no YouTube](https://youtube.com/...)
 
