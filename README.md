@@ -1,142 +1,108 @@
 # 🐾 Patinhas na Nuvem
 
-> Plataforma premium de conexão entre ONGs de proteção animal e adotantes responsáveis.
+> Projeto Acadêmico - Disciplina de Desenvolvimento Web 2026/1
 
-[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://projeto-2026-ashen.vercel.app/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+## 📌 Sobre o Projeto
 
-**Patinhas na Nuvem** é uma solução moderna e intuitiva para gerenciar o fluxo de adoção de animais. O sistema visa transformar a experiência de encontrar um novo melhor amigo, oferecendo uma interface fluida, rápida e visualmente impactante.
+**Patinhas na Nuvem** é um ecossistema digital que atua como ponte entre Organizações Não Governamentais (ONGs) de proteção animal e possíveis adotantes. A plataforma automatiza o processo de triagem e interesse, garantindo que a comunicação entre abrigos e a comunidade seja fluida, profissional e eficiente.
 
-🔗 **Demo Online:** [projeto-2026-ashen.vercel.app](https://projeto-2026-ashen.vercel.app/)
+### ❓ Problema Real
 
----
+Muitas ONGs de pequeno e médio porte sofrem com a falta de visibilidade de seus animais e com processos de adoção manuais via redes sociais, que geram perda de informações e sobrecarga de trabalho. O **Patinhas na Nuvem** resolve isso centralizando a galeria de animais e automatizando a coleta de dados de interessados.
 
-## 🖼️ Preview
+### 👥 Público Alvo
 
-Aqui estão alguns vislumbres da interface premium do projeto:
-
-````carousel
-![Desktop Home](/docs/screenshots/home.png)
-<!-- slide -->
-![Pet Details](/docs/screenshots/pet_details.png)
-<!-- slide -->
-![Adopt Gallery](/docs/screenshots/gallery.png)
-````
-
-*(Screenshots em breve na pasta `/docs/screenshots`)*
+- **ONGs de Proteção Animal**: Que buscam profissionalizar sua vitrine de adoção.
+- **Projetos de Extensão/Culturais**: Focados na causa animal.
+- **Adotantes Responsáveis**: Pessoas que buscam um novo pet de forma segura e organizada.
 
 ---
 
-## ✨ Funcionalidades Atuais
+## 👥 Integrantes do Grupo
 
-- [x] **Galeria de Pets Interativa**: Listagem com filtros inteligentes por espécie, idade e porte.
-- [x] **Busca em Tempo Real**: Filtro instantâneo por nome, raça ou localização.
-- [x] **Fluxo de Adoção Multi-step**: Modal organizado para triagem de interessantes.
-- [x] **Integração Backend (Formspree)**: Recebimento de solicitações de adoção e voluntariado diretamente por e-mails formatados.
-- [x] **Design Responsivo & Premium**: Estética moderna com glassmorphism, gradientes suaves e micro-animações.
-- [x] **Sistema de Doações**: Interface dedicada para suporte financeiro à ONG.
+| Nome | Matrícula | GitHub |
+|------|-----------|--------|
+| [Nome do Aluno] | [Matrícula] | [@user] |
+| [Nome do Aluno] | [Matrícula] | [@user] |
+| [Nome do Aluno] | [Matrícula] | [@user] |
+
+---
+
+## ✨ Funcionalidades do Sistema
+
+- **Galeria Inteligente**: Filtros por espécie, porte e idade.
+- **Busca Global**: Localização rápida por nome ou raça.
+- **Formulário de Triagem**: Fluxo interativo para captação de dados de adoção.
+- **Sistema de Voluntariado**: Inscrição de novos colaboradores para a ONG.
+- **Portal de Doações**: Interface para arrecadação de recursos.
+- **Integração de Notificações**: Envio automatizado de propostas via e-mail (Formspree).
+
+---
+
+## 🏗️ Arquitetura do Projeto
+
+O sistema foi desenvolvido utilizando uma arquitetura baseada em **Componentes Reutilizáveis** com React. A comunicação com o "mundo exterior" é feita através de uma camada de serviços dedicada.
+
+- **Frontend**: Single Page Application (SPA) para alta performance.
+- **Services Layer**: Abstração da lógica de dados (Mock Data evoluindo para Supabase).
+- **Communication Layer**: Integração via API com Formspree.
+
+---
+
+## 🚀 Deploy na Cloud
+
+O sistema está hospedado e disponível para acesso público através da plataforma **Vercel**, garantindo Continuous Deployment (CD) a cada atualização no repositório oficial.
+
+🔗 **Link do Sistema:** [projeto-2026-ashen.vercel.app](https://projeto-2026-ashen.vercel.app/)
+🔗 **Repositório GitHub:** [PROJETO-2026](https://github.com/LuisGustavoCassioli/PROJETO-2026)
+
+---
+
+## 🎥 Vídeo de Apresentação
+
+*(Link para o vídeo de apresentação - Mínimo 5 minutos)*
+
+- [Assista no YouTube](https://youtube.com/...)
+
+---
+
+## 📁 Estrutura de Pastas
+
+```text
+/
+├── docs/               # Documentação técnica e screenshots
+├── public/             # Recursos estáticos públicos
+└── src/
+    ├── components/     # Componentes de UI (Navbar, Modals, Cards)
+    ├── pages/          # Views principais (Home, Adopt, Contact)
+    ├── services/       # Lógica de integração e dados (Mock API)
+    ├── assets/         # CSS e Imagens compiláveis
+    └── main.jsx        # Ponto de entrada do React
+```
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Core**: [React.js](https://react.dev/) + [Vite](https://vitejs.dev/)
-- **Estilização**: Vanilla CSS (Design Systems & Tokens)
-- **Ícones**: [Lucide React](https://lucide.dev/)
-- **Roteamento**: [React Router Dom](https://reactrouter.com/)
-- **Backend de Formulários**: [Formspree](https://formspree.io/)
+- **React.js** (v18+)
+- **Vite** (Build Tool)
+- **Vanilla CSS** (Design System)
+- **Lucide React** (Ícones)
+- **Vercel** (Hospedagem)
 
 ---
 
-## 🚀 Como Executar Localmente
+## 🗺️ Roadmap Acadêmico
 
-### Pré-requisitos
-
-- Node.js (v18+)
-- npm ou yarn
-
-### Passo a Passo
-
-1. **Clone o repositório**:
-
-   ```bash
-   git clone https://github.com/LuisGustavoCassioli/PROJETO-2026.git
-   ```
-
-2. **Entre na pasta**:
-
-   ```bash
-   cd PROJETO-2026
-   ```
-
-3. **Instale as dependências**:
-
-   ```bash
-   npm install
-   ```
-
-4. **Inicie o servidor de desenvolvimento**:
-
-   ```bash
-   npm run dev
-   ```
-
----
-
-## 🗺️ Roadmap de Evolução
-
-O projeto está em constante evolução. Confira o que vem por aí:
-
-### Versão 1.1 - Persistência & Auth (Próxima)
-
-- [ ] Integração com **Supabase** para banco de dados real (substituindo Mock data).
-- [ ] Sistema de Autenticação (Login para adotantes e painel para ONGs).
-
-### Versão 1.2 - Painel Administrativo
-
-- [ ] Dashboard para a ONG gerenciar pets (CRUD de animais).
-- [ ] Gerenciamento de status de adoção (Pendente, Aprovado, Concluído).
-
-### Versão 2.0 - Ecossistema Web Avançado
-
-- [ ] Sistema de Chat interno para comunicação com o abrigo.
-- [ ] Blog integrado para dicas de cuidados e notícias.
-- [ ] Integração com mapas avançada para localização de parceiros.
-- [ ] API Própria para parceiros e integradores.
-
----
-
-## 📂 Documentação
-
-Documentação técnica avançada disponível na pasta `/docs`:
-
-- [Arquitetura do Projeto](/docs/architecture.md)
-- [Guia de Contribuição](/docs/CONTRIBUTING.md)
-
----
-
-## 🤝 Contribuição
-
-Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
-
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
-3. Faça o Commit de suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
----
-
-## 📋 Tags Recomendadas (Topics)
-
-`nextjs`, `react`, `vite`, `formspree`, `animal-adoption`, `glassmorphism`, `premium-ui`, `frontend`, `webapp`, `portfolio`, `javascript`.
+- **Fase 1 (Concluída)**: MVP com Mock Data e Integração Formspree.
+- **Fase 2 (Próxima)**: Integração com **Supabase** para banco de dados real.
+- **Fase 3**: Dashboard administrativo para a ONG.
 
 ---
 
 ## 📄 Licença
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distribuído sob a licença MIT.
 
 ---
-Desenvolvido com ❤️ para ajudar os animais.
+*Este projeto faz parte da avaliação da disciplina 2026/1.*
