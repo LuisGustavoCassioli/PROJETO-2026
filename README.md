@@ -22,9 +22,9 @@ Muitas ONGs de pequeno e médio porte sofrem com a falta de visibilidade de seus
 
 | Nome | Matrícula | GitHub |
 | :--- | :--- | :--- |
-| [Nome do Aluno] | [Matrícula] | [@user] |
-| [Nome do Aluno] | [Matrícula] | [@user] |
-| [Nome do Aluno] | [Matrícula] | [@user] |
+| [Eduardo Freitas de Castro] | [Matrícula] | [@user] |
+| [LUIS GUSTAVO CASSIOLI RODRIGUES] | [3023204201] | [@LuisGustavoCassioli] |
+| [Samuel De Lucas Silva] | [Matrícula] | [@user] |
 
 ---
 
